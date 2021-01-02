@@ -10,6 +10,8 @@ import { useEffect } from 'react';
 
 
 function App() {
+  document.title = 'Fake Slack.com'
+
   const [{ user }, dispatch] = useStateValue()
 
   useEffect(() => {
