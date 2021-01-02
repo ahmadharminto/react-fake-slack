@@ -1,0 +1,25 @@
+.chatInput {
+    border-radius: 20px;
+}
+
+.chatInput > {
+    form {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    
+    form > {
+        input {
+            position: fixed;
+            bottom: 30px;
+            width: 76%;
+            border: 1px solid gray;
+            border-radius: 3px;
+            padding: 20px;
+        }
+        button {
+            display: none !important;
+        }
+    }
+}
