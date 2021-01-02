@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "shop-c432d"
+  },
+  "targets": {
+    "shop-c432d": {
+      "hosting": {
+        "slack": [
+          "slack-web-bf638"
+        ]
+      }
+    }
+  }
+}
